@@ -1,0 +1,21 @@
+.button-search {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 19px 40px;
+  border-radius: 10px;
+  border: none;
+  background: #4f27bf;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 32px;
+  cursor: pointer;
+  img {
+    margin-right: 16px;
+  }
+  @media screen and (max-width: 992px) {
+    width: 100%;
+    justify-content: center;
+  }
+}

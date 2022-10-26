@@ -1,0 +1,39 @@
+header {
+  background: #4f27bf;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 32px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  .block_left {
+    display: flex;
+    align-items: center;
+    img {
+      margin-right: 24px;
+    }
+    h3 {
+      color: #fff;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 100%;
+    }
+  }
+
+  .block_right {
+    display: flex;
+    align-items: center;
+    a {
+      display: flex;
+      align-items: center;
+      color: #fff;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 100%;
+      img {
+        margin-right: 24px;
+      }
+    }
+  }
+}

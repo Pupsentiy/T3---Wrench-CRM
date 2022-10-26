@@ -1,0 +1,54 @@
+@import './fontFace.scss';
+
+*{
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+  font-size: 20px;
+}
+
+// #root{
+// }
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd,
+a {
+    margin: 0;
+    padding: 0;
+list-style-type: none;
+text-decoration: none;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.wrapper{
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
